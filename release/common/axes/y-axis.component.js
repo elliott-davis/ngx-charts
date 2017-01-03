@@ -55,7 +55,7 @@ var YAxisComponent = (function () {
         'showGridLines': [{ type: core_1.Input },],
         'showLabel': [{ type: core_1.Input },],
         'labelText': [{ type: core_1.Input },],
-        'yAxisTickInterval': [{ type: core_1.Input },],
+        'yAxisTickCount': [{ type: core_1.Input },],
         'dimensionsChanged': [{ type: core_1.Output },],
         'ticksComponent': [{ type: core_1.ViewChild, args: [y_axis_ticks_component_1.YAxisTicksComponent,] },],
     };

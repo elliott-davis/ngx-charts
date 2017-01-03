@@ -102,11 +102,11 @@ export class Wrapper_YAxisComponent {
       this._expr_5 = currValue;
     }
   }
-  check_yAxisTickInterval(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
+  check_yAxisTickCount(currValue:any,throwOnChange:boolean,forceUpdate:boolean):void {
     if ((forceUpdate || import3.checkBinding(throwOnChange,this._expr_6,currValue))) {
       this._changed = true;
-      this.context.yAxisTickInterval = currValue;
-      this._changes['yAxisTickInterval'] = new import1.SimpleChange(this._expr_6,currValue);
+      this.context.yAxisTickCount = currValue;
+      this._changes['yAxisTickCount'] = new import1.SimpleChange(this._expr_6,currValue);
       this._expr_6 = currValue;
     }
   }
